@@ -11,7 +11,7 @@ import PromoCode from './pages/promoCode/PromoCode';
 
 const App = () => {
 
-  const url = 'http://localhost:4000';
+  const url = 'https://food-delivery-app-backend-t594.onrender.com';
 
   return (
     <div>
