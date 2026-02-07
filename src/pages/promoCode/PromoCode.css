@@ -1,0 +1,41 @@
+.promo-container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin-left: 50%;
+  margin-top: 50%;
+
+  /* border: 2px solid red; */
+  min-height: 70vh;
+}
+
+.promo-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+}
+
+.promo-form input,
+.promo-form button {
+  padding: 12px;
+  font-size: 16px;
+}
+
+.promo-form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.promo-form button:hover {
+  background-color: #45a049;
+}
+
+/* ✅ Responsive */
+@media (max-width: 768px) {
+  .promo-form {
+    width: 90%;
+  }
+}
